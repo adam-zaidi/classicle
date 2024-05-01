@@ -8,14 +8,7 @@ for (var i = 0; i < jsonObject.length; i++) {
   csv_data.push(jsonObject[i].split(','));
 }
 
-let order = [4,0,5,2,3,1]
-
-const start_date = new Date("2024", "3", "30");
-const date = new Date();
-let classicle_day = Math.round((date - start_date) / (1000 * 60 * 60 * 24))%order.length;
-console.log(classicle_day);
-
-let day = classicle_day;
+let day = 2;
 let pieces = [];
 for (var i = 1; i < csv_data.length; i++) {
   pieces.push(csv_data[i][0]);
