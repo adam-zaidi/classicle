@@ -27,6 +27,10 @@ body {
   cursor: default;
 }
 
+h1 {
+  font-family: 'Times New Roman', Times, serif; !important
+}
+
 .info-button-box {
   width: 25px;
   cursor: pointer;
